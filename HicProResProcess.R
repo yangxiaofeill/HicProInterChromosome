@@ -21,7 +21,7 @@ printHelpMessage <- function(){
             "theMatrixFile, the interaction score matrix file \n " ,
             "chr_1, the first chr id \n",
             "chr_2, the second chr id \n", 
-            "#####################################################################################",
+            "#####################################################################################\n",
             "copyright @ Xiaofei Yang, xfyang@xjtu.edu.cn", sep = '')
   )
   stop("", call.=FALSE)
