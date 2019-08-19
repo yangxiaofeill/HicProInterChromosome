@@ -28,7 +28,7 @@ printHelpMessage <- function(){
 
 printEndMessage <- function(theBedFile, theMatrixFile){
   newBedFile <- paste(theBedFile, ".", chr_1, "-", chr_2, ".newForHicPlotterInterMap.bed \n", sep = '')
-  newMatrixFile <- paste(theNewMatrix, ".", chr_1, "-", chr_2, ".newForHicPlotterInterMap.matrix", sep = '')
+  newMatrixFile <- paste(theMatrixFile, ".", chr_1, "-", chr_2, ".newForHicPlotterInterMap.matrix", sep = '')
   cat(paste("#################################################################################### \n", 
             "the prgram finished, and generate two files: \n",
             paste(newBedFile, "\n", sep = ''),
